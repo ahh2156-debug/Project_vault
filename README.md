@@ -5,6 +5,8 @@
 ![Spark SQL](https://img.shields.io/badge/Spark%20SQL-Analytics-red)
 ![Looker Studio](https://img.shields.io/badge/Looker%20Studio-Dashboards-green)
 
+---
+
 ## 📌 Overview  
 This project builds an **end-to-end data engineering pipeline** to process, clean, and analyze over **10 million NYC taxi trip records**. Using **Mage AI** as the orchestration tool, data is transformed and loaded into **Google BigQuery** for large-scale analytics. The processed data powers **Looker Studio dashboards** that visualize trip patterns, ride durations, peak hours, and revenue trends.
 
@@ -42,7 +44,6 @@ docs/
  └── dashboard_screenshots/
 
 README.md
-
 🔄 Pipeline Workflow
 Extract: Load raw NYC taxi trip data from CSV.
 
@@ -54,6 +55,7 @@ Analytics: Create fact and dimension tables for scalable querying.
 
 Visualization: Build Looker Studio dashboards to display KPIs and trends.
 
+
 📈 Results & Insights
 Peak demand identified on Fridays 6–8 PM, with ~20% higher trip volumes.
 
@@ -61,23 +63,44 @@ Average trip fare: $13.50, with longer trips concentrated in outer boroughs.
 
 Seasonal trends show a ~15% drop in ridership during January.
 
+📊 Dashboard Preview
+View Dashboard
 
-📈 Dashboard Preview:[View Dashboard]([https://lookerstudio.google.com/s/YVCVGJwUOXs](https://lookerstudio.google.com/u/0/reporting/48c36741-1ce3-4112-ba2c-7fc92af3ca84/page/BXqTF))
-
-How to Run:
+🚀 How to Run
 Clone the repo:
+
+bash
+Copy
+Edit
 git clone https://github.com/your-username/uber-nyc-data-engineering.git
-
 Install dependencies:
-pip install -r requirements.txt
 
+bash
+Copy
+Edit
+pip install -r requirements.txt
 Set up Google Cloud credentials for BigQuery.
 
 Run ETL:
+
+bash
+Copy
+Edit
 python etl/extract.py
 python etl/transform.py
 python etl/load.py
+🛠 Skills Demonstrated
+Data Engineering
 
-Skills Demonstrated:
-Data Engineering, ETL Development, BigQuery Optimization, Spark SQL Processing, Data Visualization
+ETL Development
+
+BigQuery Optimization
+
+Spark SQL Processing
+
+Data Visualization
+
+pgsql
+Copy
+Edit
 
