@@ -54,7 +54,7 @@ Analytics: Create fact and dimension tables for scalable querying.
 
 Visualization: Build Looker Studio dashboards to display KPIs and trends.
 
- 📈 Results & Insights
+📈 Results & Insights
 Peak demand identified on Fridays 6–8 PM, with ~20% higher trip volumes.
 
 Average trip fare: $13.50, with longer trips concentrated in outer boroughs.
@@ -77,6 +77,7 @@ Run ETL:
 python etl/extract.py
 python etl/transform.py
 python etl/load.py
-
-Skills Demonstrated: Data Engineering, ETL Development, BigQuery Optimization, Spark SQL Processing, Data Visualization
+```
+**Skills Demonstrated
+Data Engineering, ETL Development, BigQuery Optimization, Spark SQL Processing, Data Visualization
 
