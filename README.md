@@ -15,15 +15,15 @@ This project builds an **end-to-end data engineering pipeline** to process, clea
 ---
 
 ## ⚙️ Tech Stack  
-**Languages:** Python (Pandas), SQL  
-**Tools:** Mage AI, Google BigQuery, Looker Studio  
-**Frameworks:** Spark SQL  
-**Other:** ETL best practices, chunked uploads for large datasets  
+- **Languages:** Python (Pandas), SQL  
+- **Tools:** Mage AI, Google BigQuery, Looker Studio  
+- **Frameworks:** Spark SQL  
+- **Other:** ETL best practices, chunked uploads for large datasets  
 
 ---
 
 ## 🗂 Data Model  
-![Uber Data Model](uber_data_model.png)  
+![Uber Data Model](docs/uber_data_model.png)  
 
 ---
 
@@ -44,63 +44,4 @@ docs/
  └── dashboard_screenshots/
 
 README.md
-🔄 Pipeline Workflow
-Extract: Load raw NYC taxi trip data from CSV.
-
-Transform: Clean and format datetime fields, calculate ride durations, and handle missing values.
-
-Load: Upload cleaned datasets to Google BigQuery using chunked uploads to prevent memory issues.
-
-Analytics: Create fact and dimension tables for scalable querying.
-
-Visualization: Build Looker Studio dashboards to display KPIs and trends.
-
-
-📈 Results & Insights
-Peak demand identified on Fridays 6–8 PM, with ~20% higher trip volumes.
-
-Average trip fare: $13.50, with longer trips concentrated in outer boroughs.
-
-Seasonal trends show a ~15% drop in ridership during January.
-
-📊 Dashboard Preview
-View Dashboard
-
-🚀 How to Run
-Clone the repo:
-
-bash
-Copy
-Edit
-git clone https://github.com/your-username/uber-nyc-data-engineering.git
-Install dependencies:
-
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Set up Google Cloud credentials for BigQuery.
-
-Run ETL:
-
-bash
-Copy
-Edit
-python etl/extract.py
-python etl/transform.py
-python etl/load.py
-🛠 Skills Demonstrated
-Data Engineering
-
-ETL Development
-
-BigQuery Optimization
-
-Spark SQL Processing
-
-Data Visualization
-
-pgsql
-Copy
-Edit
 
