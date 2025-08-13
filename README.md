@@ -77,7 +77,7 @@ Run ETL:
 python etl/extract.py
 python etl/transform.py
 python etl/load.py
-```
-**Skills Demonstrated
+
+Skills Demonstrated:
 Data Engineering, ETL Development, BigQuery Optimization, Spark SQL Processing, Data Visualization
 
