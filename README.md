@@ -46,7 +46,7 @@ docs/
 README.md
 ```
 ## 🔄 Pipeline Workflow
-![Pipeline Preview](pipeline_diagram.png)
+![Pipeline Preview](pipeline_preview.png)
 Extract: Load raw NYC taxi trip data from CSV.
 
 Transform: Clean and format datetime fields, calculate ride durations, and handle missing values.
