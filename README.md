@@ -68,7 +68,7 @@ Seasonal trends show a ~15% drop in ridership during January.
 ![View Dashboard]([https://lookerstudio.google.com/u/0/reporting/48c36741-1ce3-4112-ba2c-7fc92af3ca84/page/BXqTF)
 ## 🚀 How to Run
 Clone the repo:
-git clone https://github.com/your-username/uber-nyc-data-engineering.git
+git clone https://github.com/ahh2156-debug/uber-nyc-data-engineering.git
 
 Install dependencies:
 pip install -r requirements.txt
