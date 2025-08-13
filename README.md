@@ -45,7 +45,7 @@ docs/
 
 README.md
 ```
-🔄 Pipeline Workflow
+## 🔄 Pipeline Workflow
 Extract: Load raw NYC taxi trip data from CSV.
 
 Transform: Clean and format datetime fields, calculate ride durations, and handle missing values.
@@ -57,40 +57,31 @@ Analytics: Create fact and dimension tables for scalable querying.
 Visualization: Build Looker Studio dashboards to display KPIs and trends.
 
 
-📈 Results & Insights
+## 📈 Results & Insights
 Peak demand identified on Fridays 6–8 PM, with ~20% higher trip volumes.
 
 Average trip fare: $13.50, with longer trips concentrated in outer boroughs.
 
 Seasonal trends show a ~15% drop in ridership during January.
 
-📊 Dashboard Preview
+## 📊 Dashboard Preview
 View Dashboard
 
-🚀 How to Run
+## 🚀 How to Run
 Clone the repo:
-
-bash
-Copy
-Edit
 git clone https://github.com/your-username/uber-nyc-data-engineering.git
+
 Install dependencies:
-
-bash
-Copy
-Edit
 pip install -r requirements.txt
-Set up Google Cloud credentials for BigQuery.
 
+Set up Google Cloud credentials for BigQuery.
 Run ETL:
 
-bash
-Copy
-Edit
 python etl/extract.py
 python etl/transform.py
 python etl/load.py
-🛠 Skills Demonstrated
+
+## 🛠 Skills Demonstrated
 Data Engineering
 
 ETL Development
@@ -101,7 +92,4 @@ Spark SQL Processing
 
 Data Visualization
 
-yaml
-Copy
-Edit
 
