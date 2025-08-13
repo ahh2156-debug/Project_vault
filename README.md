@@ -66,22 +66,6 @@ Seasonal trends show a ~15% drop in ridership during January.
 
 ## 📊 Dashboard Preview
 ![View Dashboard](uber_dashboard.png)
-## 🚀 How to Run
-Clone the repo:
-git clone https://github.com/ahh2156-debug/uber-nyc-data-engineering.git
-
-Install dependencies:
-pip install -r requirements.txt
-
-Set up Google Cloud credentials for BigQuery.
-
-Run ETL:
-
-python etl/extract.py
-
-python etl/transform.py
-
-python etl/load.py
 
 ## 🛠 Skills Demonstrated
 Data Engineering
