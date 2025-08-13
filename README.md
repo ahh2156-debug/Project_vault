@@ -21,7 +21,7 @@ This project builds an **end-to-end data engineering pipeline** to process, clea
 ---
 
 ## 🗂 Data Model  
-![Uber Data Model](docs/uber_data_model.png)  
+![Uber Data Model](uber_data_model.png)  
 
 ---
 
