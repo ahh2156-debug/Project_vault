@@ -1,4 +1,4 @@
-# Uber NYC Taxi Data Engineering & Analytics Project
+# Uber NYC Data Engineering & Analytics Project
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
 ![BigQuery](https://img.shields.io/badge/Google%20BigQuery-Data%20Warehouse-orange)
